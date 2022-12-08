@@ -38,6 +38,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <username>Vojteu</username>
                     <password>kutas
                     </password>
 <!--                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
