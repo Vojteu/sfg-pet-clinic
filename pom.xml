@@ -38,7 +38,8 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:Vojteu/sfg-pet-clinic.git</developerConnection>
+<!--        <developerConnection>scm:git:git@github.com:Vojteu/sfg-pet-clinic.git</developerConnection>-->
+        <developerConnection>https://github.com/Vojteu/sfg-pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 </project>
