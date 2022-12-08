@@ -38,6 +38,8 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <password>kutas
+                    </password>
 <!--                    <autoVersionSubmodules>true</autoVersionSubmodules>-->
                 </configuration>
             </plugin>
@@ -46,6 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Vojteu/sfg-pet-clinic.git</developerConnection>
+
 <!--        <url>https://github.com/Vojteu/sfg-pet-clinic.git</url>-->
         <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
