@@ -1,1 +1,4 @@
-guru\springframework\sfgpetclinic\SfgPetClinicApplicationTests.class
+vojteu\springframework\sfgpetclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
+vojteu\springframework\sfgpetclinic\services\map\OwnerMapServiceTest.class
+vojteu\springframework\sfgpetclinic\SfgPetClinicApplicationTests.class
+vojteu\springframework\sfgpetclinic\controllers\OwnerControllerTest.class
