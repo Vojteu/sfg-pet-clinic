@@ -3,6 +3,7 @@ package vojteu.springframework.sfgpetclinic.controllers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -14,10 +15,12 @@ import vojteu.springframework.sfgpetclinic.services.OwnerService;
 import java.util.*;
 
 import static org.hamcrest.Matchers.*;
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-import static org.mockito.Mockito.verifyZeroInteractions;
 
 @ExtendWith(MockitoExtension.class)
 class OwnerControllerTest {
@@ -69,6 +72,6 @@ class OwnerControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(view().name("notimplemented"));
 
-        verifyZeroInteractions((ownerService));
+        verifyNoInteractions((ownerService));
     }
 }
