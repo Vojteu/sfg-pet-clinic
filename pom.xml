@@ -23,9 +23,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+<!--    <properties>-->
+<!--        <java.version>17</java.version>-->
+<!--    </properties>-->
     <build>
         <plugins>
             <plugin>
