@@ -7,6 +7,7 @@ import vojteu.springframework.sfgpetclinic.model.Owner;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 class OwnerMapServiceTest {
 
@@ -31,7 +32,7 @@ class OwnerMapServiceTest {
     @Test
     void findById() {
         Owner owner = ownerMapService.findById(ownerId);
-        assertEquals(ownerId, owner.getId());
+        assertEquals(ownerId, (long)owner.getId());
     }
 
     @Test
@@ -41,7 +42,7 @@ class OwnerMapServiceTest {
 
         Owner saveOwner = ownerMapService.save(owner2);
 
-        assertEquals(id, saveOwner.getId());
+        assertEquals(id, (long)saveOwner.getId());
     }
 
     @Test
@@ -72,7 +73,7 @@ class OwnerMapServiceTest {
         Owner smith = ownerMapService.findByLastName(lastName);
 
         assertNotNull(smith);
-        assertEquals(ownerId, smith.getId());
+        assertEquals(ownerId, (long)smith.getId());
     }
 
     @Test
