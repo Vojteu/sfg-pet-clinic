@@ -21,14 +21,14 @@
     <version>3.0.6</version>
     <relativePath /> <!-- lookup parent from repository -->
 </parent>
-<properties>
-<!--    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
-    <java.version>18</java.version>
-<!--    <jaxb.version>4.0.2</jaxb.version>-->
-    <maven.compiler.source>18</maven.compiler.source>
-    <maven.compiler.target>18</maven.compiler.target>
-</properties>
+<!--<properties>-->
+<!--&lt;!&ndash;    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>&ndash;&gt;-->
+<!--&lt;!&ndash;    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>&ndash;&gt;-->
+<!--    <java.version>18</java.version>-->
+<!--&lt;!&ndash;    <jaxb.version>4.0.2</jaxb.version>&ndash;&gt;-->
+<!--    <maven.compiler.source>18</maven.compiler.source>-->
+<!--    <maven.compiler.target>18</maven.compiler.target>-->
+<!--</properties>-->
 
 <!--<dependencies>-->
 <!--    <dependency>-->
