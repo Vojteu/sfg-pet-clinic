@@ -26,8 +26,8 @@
 <!--    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
     <java.version>18</java.version>
 <!--    <jaxb.version>4.0.2</jaxb.version>-->
-<!--    <maven.compiler.source>${java.version}</maven.compiler.source>-->
-<!--    <maven.compiler.target>${java.version}</maven.compiler.target>-->
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
 </properties>
 
 <!--<dependencies>-->
