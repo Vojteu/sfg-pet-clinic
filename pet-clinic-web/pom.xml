@@ -136,18 +136,24 @@
                         </goals>
                     </execution>
                 </executions>
-<!--                <configuration>-->
-<!--                    <wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>-->
-<!--                    <cssDestinationFolder>${project.build.directory}/classes/static/resources/css</cssDestinationFolder>-->
-<!--                    <wroFile>${basedir}/src/main/wro/wro.xml</wroFile>-->
-<!--                    <extraConfigFile>${basedir}/src/main/wro/wro.properties</extraConfigFile>-->
-<!--                    <contextFolder>${basedir}/src/main/less</contextFolder>-->
-<!--                </configuration>-->
+                <configuration>
+                    <wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
+                    <cssDestinationFolder>${project.build.directory}/classes/static/resources/css</cssDestinationFolder>
+                    <wroFile>src/main/wro/wro.xml</wroFile>
+                    <extraConfigFile>src/main/wro/wro.properties</extraConfigFile>
+                    <contextFolder>src/main/less</contextFolder>
+                </configuration>
                 <dependencies>
+                    <!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
                     <dependency>
                         <groupId>org.webjars</groupId>
                         <artifactId>bootstrap</artifactId>
-                        <version>${webjars-bootstrap.version}</version>
+                        <version>5.2.3</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.mockito</groupId>
+                        <artifactId>mockito-core</artifactId>
+                        <version>5.6.0</version>
                     </dependency>
                 </dependencies>
             </plugin>
