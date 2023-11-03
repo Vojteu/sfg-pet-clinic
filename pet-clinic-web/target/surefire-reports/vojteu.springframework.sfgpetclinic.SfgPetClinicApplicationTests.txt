@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: vojteu.springframework.sfgpetclinic.SfgPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.695 s - in vojteu.springframework.sfgpetclinic.SfgPetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.415 s - in vojteu.springframework.sfgpetclinic.SfgPetClinicApplicationTests
